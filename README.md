@@ -11,8 +11,8 @@ ElastiCache is a web service used to deploy, operate and scale in-memory cache i
       src="overview.png"
       width="400"
     />
-    ***In the deploy, ElastiCache sits between application and data storage***
 </p>
+<h1 align="center">In the deploy, ElastiCache sits between application and data storage</h1>
 
 Elasticache supports two open-source in-memory caching engines.
 
@@ -63,8 +63,10 @@ Types of caching strategies:
       width="400"
     />
 </p>
-    - When ever application requests data, first it request for ElastiCache if it exists then ElastiCache return the data to the application.
-    - Otherwise application request data to the data storage and then data storage return data to the application. Then application return that data to the ElastiCache. it will be quickly retrieved for future requests.
+
+   - When ever application requests data, first it request for ElastiCache if it exists then ElastiCache return the data to the application.
+    
+   - Otherwise application request data to the data storage and then data storage return data to the application. Then application return that data to the ElastiCache. it will be quickly retrieved for future requests.
     
 ***Write Through***: Always ensure data is fresh. This Strategy add/updates the ElastiCache when data is written in to the data storage. When spinning up the new node or scaling up node we lost all the ElastiCache data and that scenarios we use Write Through.
 
@@ -76,9 +78,10 @@ Types of caching strategies:
     />
 </p>
 
-***Adding TTL***:  Using this Strategy we can minimise the space in ElastiCache.
+***Adding TTL***: Using this Strategy we can minimise the space in ElastiCache.
 
    - Time to live key Strategy for each cache node to how long data present in the ElastiCache.
+   
    - When application try to request the data which already expires, ElastiCache will return data not found and try to fetch from the data storage. 
 
 <p align="center">
