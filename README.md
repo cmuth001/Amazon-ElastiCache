@@ -5,16 +5,19 @@
 ElastiCache is a web service used to deploy, operate and scale in-memory cache in the cloud. Elasticache improve the performance of the web application  by allowing you to retrieve information fast, managed and in-memory data storage  instead of relying entirely on slower disk-storage database.
 
 <p align="center">
-  In the deploy, ElastiCache sits between application and data storage
-    <img
+  
+   <img
       alt="OverView of AWS Elasticache"
       src="overview.png"
       width="400"
     />
+    ***In the deploy, ElastiCache sits between application and data storage***
 </p>
 
 Elasticache supports two open-source in-memory caching engines.
+
 1. **Memcached**: Is an easy-to-use, high-performance, in-memory data store.
+
 2. **Redis**: **R**emote **Di**ctionary **S**erver, is a fast, open-source, in-memory key-value data store for use as a database.
 
 ### How does it work:
@@ -30,11 +33,13 @@ Elasticache supports two open-source in-memory caching engines.
 **Cache Node**: is the smallest building block of an Elasticache deployment. A node is a fixed size chunk of secured test ram, exists in isolation from or some relationship to other nodes known as cluster. Each node runs in an instance of either **Memcached** or **Redis** depends on which was chosen when you created cluster. Existing applications that use **Memcached** or **Redis** in memory engines can use ElastiCache with almost no modification.
 
 **Redis**: 
-1. ElastiCache for Redis is fully managed in an ideal candidate for high performance use cases such as web, mobile app, Gaming, ad-Tech and IoT. 
+
+1. ElastiCache for Redis is fully managed in an ideal candidate for high performance use cases such as web, mobile app, Gaming, ad-Tech and IoT.
 2. ElastiCache for Redis can scale up to **90 nodes** per cluster to increase data access performance.
 
 **Memcached**: 
-1. Can be preferable for relatively small and static data such as HTML code fragments. 
+
+1. Can be preferable for relatively small and static data such as HTML code fragments.
 2. Memcached comparatively use less memory resources from metadata.
 3. ElastiCache with memcached can scale up to **20 nodes** per cluster.
 4. ElastiCache is used to improve the latency and throughput for various applications and compute intensive work loads. 
@@ -42,8 +47,11 @@ Elasticache supports two open-source in-memory caching engines.
 ### Caching Strategies:
 
 Types of caching strategies:
+
 ***1. Lazy Loading***
+
 ***2. Write Through***
+
 ***3. Adding TTL***
 
 ***Lazy Loading***: Helps in stales the data in ElastiCache, caching Strategy that loads the data into the cache when it is necessary.
@@ -69,8 +77,9 @@ Types of caching strategies:
 </p>
 
 ***Adding TTL***:  Using this Strategy we can minimise the space in ElastiCache.
-      - Time to live key Strategy for each cache node to how long data present in the ElastiCache.
-      - When application try to request the data which already expires, ElastiCache will return data not found and try to fetch from the data storage. 
+
+   - Time to live key Strategy for each cache node to how long data present in the ElastiCache.
+   - When application try to request the data which already expires, ElastiCache will return data not found and try to fetch from the data storage. 
 
 <p align="center">
     <img
@@ -82,7 +91,7 @@ Types of caching strategies:
 
 ### Use Cases:
 
-1. Expedia: Reduce Data Store Costs
+***1. Expedia***: Reduce Data Store Costs
 
 <p align="center">
     <img
@@ -91,7 +100,7 @@ Types of caching strategies:
       width="400"
     />
 </p>
-2. TicketLeap.com: Absorb Rapid Traffic Growth
+***2. TicketLeap.com***: Absorb Rapid Traffic Growth
 
 <p align="center">
     <img
@@ -100,7 +109,7 @@ Types of caching strategies:
       width="400"
     />
 </p>
-3. TapJoy: Decrease mobile app latency
+***3. TapJoy***: Decrease mobile app latency
 
 <p align="center">
     <img
@@ -111,6 +120,7 @@ Types of caching strategies:
 </p>
 
 ### Summary:
+
 <p align="center">
     <img
       alt="Summary"
@@ -119,7 +129,8 @@ Types of caching strategies:
     />
 </p>
 
-#### References:
+### References:
+
 1. [https://aws.amazon.com/elasticache/](https://aws.amazon.com/elasticache/)
 2. [https://aws.amazon.com/redis/](https://aws.amazon.com/redis/)
 3. [https://aws.amazon.com/memcached/](https://aws.amazon.com/memcached/)
