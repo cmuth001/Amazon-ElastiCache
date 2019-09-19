@@ -103,6 +103,7 @@ Types of caching strategies:
       width="600"
     />
 </p>
+
 ***2. TicketLeap.com***: Absorb Rapid Traffic Growth
 
 <p align="center">
@@ -112,6 +113,7 @@ Types of caching strategies:
       width="600"
     />
 </p>
+
 ***3. TapJoy***: Decrease mobile app latency
 
 <p align="center">
