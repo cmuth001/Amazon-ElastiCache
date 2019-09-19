@@ -94,7 +94,7 @@ Types of caching strategies:
 
 ### Use Cases:
 
-***1. Expedia***: Reduce Data Store Costs
+***1. Expedia***: **Reduce Data Store Costs**
 
 <p align="center">
     <img
@@ -104,7 +104,7 @@ Types of caching strategies:
     />
 </p>
 
-***2. TicketLeap.com***: Absorb Rapid Traffic Growth
+***2. TicketLeap.com***: **Absorb Rapid Traffic Growth**
 
 <p align="center">
     <img
@@ -114,7 +114,7 @@ Types of caching strategies:
     />
 </p>
 
-***3. TapJoy***: Decrease mobile app latency
+***3. TapJoy***: **Decrease mobile app latency**
 
 <p align="center">
     <img
