@@ -9,10 +9,10 @@ ElastiCache is a web service used to deploy, operate and scale in-memory cache i
    <img
       alt="OverView of AWS Elasticache"
       src="overview.png"
-      width="400"
+      width="600"
     />
 </p>
-<h1 align="center">In the deploy, ElastiCache sits between application and data storage</h1>
+<p align="center">In the deploy, ElastiCache sits between application and data storage</p>
 
 Elasticache supports two open-source in-memory caching engines.
 
@@ -26,7 +26,7 @@ Elasticache supports two open-source in-memory caching engines.
     <img
       alt=" AWS Elasticache Working"
       src="elasticacheworking.png"
-      width="400"
+      width="600"
     />
 </p>
 
@@ -60,7 +60,7 @@ Types of caching strategies:
     <img
       alt=" Lazy Loading"
       src="lazyloading.png"
-      width="400"
+      width="600"
     />
 </p>
 
@@ -74,7 +74,7 @@ Types of caching strategies:
     <img
       alt=" Write Through"
       src="writethrough.png"
-      width="400"
+      width="600"
     />
 </p>
 
@@ -88,7 +88,7 @@ Types of caching strategies:
     <img
       alt=" Adding TTL"
       src="addingttl.png"
-      width="400"
+      width="600"
     />
 </p>
 
@@ -100,7 +100,7 @@ Types of caching strategies:
     <img
       alt=" Expedia"
       src="expedia.png"
-      width="400"
+      width="600"
     />
 </p>
 ***2. TicketLeap.com***: Absorb Rapid Traffic Growth
@@ -109,7 +109,7 @@ Types of caching strategies:
     <img
       alt=" TicketLeap"
       src="ticketleap.png"
-      width="400"
+      width="600"
     />
 </p>
 ***3. TapJoy***: Decrease mobile app latency
@@ -118,7 +118,7 @@ Types of caching strategies:
     <img
       alt="TapJoy"
       src="tapjoy.png"
-      width="400"
+      width="600"
     />
 </p>
 
@@ -128,7 +128,7 @@ Types of caching strategies:
     <img
       alt="Summary"
       src="summary.png"
-      width="400"
+      width="600"
     />
 </p>
 
